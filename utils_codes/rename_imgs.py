@@ -47,9 +47,9 @@ def rename_all_files(src_folder, dest_folder, prefix):
                 print(f"Rename {file_name} to {new_filename}")
 
 # 调用函数，将原始文件夹中的所有图片文件复制到目标文件夹，并按照指定前缀和序号重命名
-src_folder = '/home/disk/qizhongpei/projects/datasets/phone128/yuanshishuju/web_data/hand_phone/new/hand_phone_2023-4-21/hand_phone2'
-dest_folder = '/home/disk/qizhongpei/projects/datasets/phone128/train/hand_phone'
-prefix = 'large_small_size'
+src_folder = '/home/disk/qizhongpei/projects/ultralytics/crop_imgs/20230526'
+dest_folder = '/home/disk/qizhongpei/projects/datasets/phone128/train/hand_others'
+prefix = 'hand_others_web_data_20230531' 	# 前缀应为hand_others_的字符串，也可以自定义。这是一个特
 
 #rename_files(src_folder, dest_folder, prefix)
 rename_all_files(src_folder, dest_folder, prefix)

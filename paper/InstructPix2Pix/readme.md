@@ -6,7 +6,9 @@
 
 - ------
 
+### 
 
+### ![Alt text](https://gcore.jsdelivr.net/gh/qzpzd/my_notes/img/376b2c7ba7e097e1f865eedf3f002cf.png)
 
 (a) 我们首先使用经过微调的 GPT-3 生成指令和编辑过的字幕。
 
@@ -15,6 +17,16 @@
 (c)我们使用此过程创建包含超过 450,000 个训练示例的数据集 。 
 
 (d) 最后，我们的 InstructPix2Pix 扩散模型根据我们生成的数据进行训练，以根据指令编辑图像。在推理时，我们的模型概括为根据人类编写的指令编辑真实图像
+
+
+
+![20230427192058](https://gcore.jsdelivr.net/gh/qzpzd/my_notes/img/20230427193709.png)
+
+我们标记一个小文本数据集，微调GPT-3，并使用该微调模型生成一个大的文本三元组数据集。作为标记示例和生成示例的输入说明，我们使用来自LAION的真实图像说明。突出显示的文本由GPT生成 
+
+### ![20230427192058](https://gcore.jsdelivr.net/gh/qzpzd/my_notes/img/20230427192058.png)
+
+使用 StableDiffusion [52] 生成的一对图像，有和没有 Prompt-to-Prompt 。对于两者，相应的标题是“骑马的女孩的照片”和“骑龙的女孩的照片
 
 ## 示例问题：
 
